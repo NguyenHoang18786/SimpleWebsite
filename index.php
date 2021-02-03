@@ -21,7 +21,7 @@ if (!$result) {
 } 
 
 // Show value
-while ($row = pg_fetch_assoc($result)) {
+/*while ($row = pg_fetch_assoc($result)) {
 echo "<table border='1'>
 <tr>
 <th>ID</th>
@@ -33,7 +33,7 @@ echo "<td>" . $row['product_id'] . "</td>";
 echo "<td>" . $row['product_name'] . "</td>";
 echo "<td>" . $row['product_price'] . "</td>";
 echo "</tr>";
-} echo "</table>";
+} echo "</table>";*/
 
 ?>
 </body>
