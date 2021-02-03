@@ -10,8 +10,8 @@ echo "Nguyễn Hoàng";
   
 <?php
 // connect to a database 
-$dbConn = pg_connect("host=<ec2-54-158-1-189.compute-1.amazonaws.com
-> port=<5432> dbname=<dm3thdq3v0u36> user=<equifalumcnmkg> password=<7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786>");
+$dbConn = pg_connect("host=ec2-54-158-1-189.compute-1.amazonaws.com
+ port=5432 dbname=dm3thdq3v0u36 user=equifalumcnmkg password=7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786");
 if (!$dbConn) {
     echo "An error occurred.\n";
     exit;
