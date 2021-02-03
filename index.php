@@ -20,14 +20,14 @@ if (!$result) {
     exit;
 } 
 
+// Show value
+while ($row = pg_fetch_assoc($result)) {
 echo "<table border='1'>
 <tr>
 <th>ID</th>
 <th>Product</th>
 <th>Price</th>
 </tr>";
-// Show value
-while ($row = pg_fetch_assoc($result)) {
 echo "<tr>";
 echo "<td>" . $row['product_id'] . "</td>";
 echo "<td>" . $row['product_name'] . "</td>";
