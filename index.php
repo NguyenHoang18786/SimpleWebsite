@@ -16,7 +16,7 @@ if (mysqli_connect_errno())
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$result = mysqli_query($con,"SELECT * FROM Persons");
+$result = mysqli_query($con,"SELECT * FROM test_lab6");
 
 echo "<table border='1'>
 <tr>
