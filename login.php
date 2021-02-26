@@ -1,3 +1,4 @@
+<?php>
 $host = "ec2-54-158-1-189.compute-1.amazonaws.com";
 $port = "5432";
 $dbname = "dm3thdq3v0u36";
