@@ -30,8 +30,8 @@
   ?>
   <center>
     <div class="container">
-   <h2 style="padding: 30px">Login for ATN storage </h2>
-    <form method="post"">          
+   <h1 style="padding: 30px">Login for ATN storage </h1>
+    <form method="post">          
         <div class="form-group">
           <label for="username">Username:</label>
           <input type="username" class="form-control" id="username" placeholder="Enter your username ..." name="username">
