@@ -1,4 +1,14 @@
-<?php>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PHP PostgreSQL Registration & Login Example </title>
+  <meta name="keywords" content="PHP,PostgreSQL,Insert,Login">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<?php
 $host = "ec2-54-158-1-189.compute-1.amazonaws.com";
 $port = "5432";
 $dbname = "dm3thdq3v0u36";
@@ -20,19 +30,7 @@ if(isset($_POST['submit'])&&!empty($_POST['submit'])){
         echo "Invalid Details";
     }
 }
-
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>PHP PostgreSQL Registration & Login Example </title>
-  <meta name="keywords" content="PHP,PostgreSQL,Insert,Login">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-
 <div class="container">
   <h2>Login Here </h2>
   <form method="post">
