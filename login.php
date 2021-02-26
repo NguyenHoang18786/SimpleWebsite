@@ -19,29 +19,18 @@
 	{
 		die('Error: Could not connect: ' . pg_last_error());
 	}
-	$username = $_POST["username"];
-	$password = $_POST["password"];
-        $query ="select username, password from accounts where username = '$username' and password = md5('$password')";
-        $result = pg_query($pg_heroku, $query); 
-        
-        if($result == false) {   
-	    echo "Invalid Details";           
-            exit;    
-	}
-	$login_check = pg_num_rows($result);
-	if($login_check == 1) {
-	  $_SESSION["login"] = "OK";
-	  $_SESSION["username"] = $username;
-	 $redirect = "storage.php";
-	}
-	else
-	 $redirect = "login.php";
-
-	pg_free_result($result);
-	pg_close($query);
-
-	header("Location: $redirect");
-
+if(isset($_POST['submit'])&&!empty($_POST['submit'])){
+    
+    $hashpassword = md5($_POST['password']);
+    $query ="select * from accounts where password = '".pg_escape_string($_POST['password'])."' and password ='".$hashpassword."'";
+    $result = pg_query($dbconn,$query); 
+    $login_check = pg_num_rows($result);
+    if($login_check > 0){        
+        echo "Login Successfully";    
+    }else{        
+        echo "Invalid Details";
+    }
+}
   ?>
   <center>
     <div class="container">
