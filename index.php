@@ -7,7 +7,6 @@
   <head>
     <meta charset=”UTF-8”>
     <?php 
-      echo '<p>TEST HEROKU POSTGRESQL DATABASE </p>'; 
       # Heroku credential 
       $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
       $db_heroku = "dm3thdq3v0u36";
