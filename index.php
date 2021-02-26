@@ -58,7 +58,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li>
   <!-- Login -->
-            <a href="login.php" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1">Login</a>            
+            <a href="login.php" class="btn btn-primary get-started-btn mt-1 mb-1"> Login</a>            
           </li>
           <li>
             <a href="register.php">Register</a>           
