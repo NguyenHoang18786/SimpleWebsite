@@ -142,8 +142,7 @@
                     <select name=role id=role form=register class="custom-select custom-select-lg mb-3">
                       <option selected>Select the role</option>
                       <option id=admin name=admin value=admin>Admin</option>
-                      <option id=vendor name=vendor value=vendor>Vendor</option>
-                      <option id=buyer name=buyer value=buyer>Buyer</option>
+                      <option id=staff name=staff value=staff>Vendor</option>
                     </select>
                   </div>
                   <div class="form-group">
