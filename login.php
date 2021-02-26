@@ -28,10 +28,10 @@
         }
     }
   ?>
-  <div class="container-lg">
-    <h2>Login for ATN storage </h2>
+  <div class="container">
+    <center><h2>Login for ATN storage </h2></center>
     <form method="post">      
-      <div class="form-group">
+      <div class="container-sm form-group">
         <label for="username">Username:</label>
         <input type="username" class="form-control" id="username" placeholder="Please enter username ..." name="username">
       </div>     
