@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <body>
   <?php
@@ -32,7 +31,7 @@
   <center>
     <div class="container">
    <h2 style="padding: 30px">Login for ATN storage </h2>
-    <form method="post" class="container">          
+    <form method="post"">          
    <div class="mb-3">
       <label for="username" class="form-label-lg">Username</label>
       <input type="username" class="form-control-lg" id="username" placeholder="Please enter username ..." name="username">
