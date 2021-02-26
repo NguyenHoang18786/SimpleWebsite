@@ -101,13 +101,12 @@
 
                 <?php
                     $msg = '';
-
+                    $query = 'select * from accounts';
+                    $result = pg_query($pg_heroku, $query);
                     if ($_POST['username'] == 'admin' && 
                     $_POST['password'] == 'admin') {
                     $_SESSION['valid'] = true;
-                    $_SESSION['timeout'] = time();
                     $_SESSION['username'] = 'admin';
-
                     $_SESSION['role']=$arr['role'];
 
                     if ($_SESSION['role']=='admin'){header('Location:admin.php');} 
