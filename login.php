@@ -25,6 +25,7 @@
         if($result == false) {   
 	    echo "Invalid Details";           
             exit;    
+	}
 	$login_check = pg_num_rows($result);
 	if($login_check == 1) {
 	  $_SESSION["login"] = "OK";
