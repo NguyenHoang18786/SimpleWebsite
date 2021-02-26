@@ -5,6 +5,7 @@
 ?>
 <html lang="en">
   <head>
+     <a href="login.php">Login</a>
     <meta charset=”UTF-8”>
     <?php 
       # Heroku credential 
