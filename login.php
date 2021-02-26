@@ -27,7 +27,7 @@ if(isset($_POST['submit'])){
     if($login_check == 0){        
         echo "Invalid Details";   
     }else{        
-        header('location: index.php'); 
+        header('location: storage.php'); 
     }
 }
   ?>
