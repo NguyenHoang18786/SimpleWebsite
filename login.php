@@ -9,18 +9,17 @@
 </head>
 <body>
 	<?php
-	$host = "ec2-54-158-1-189.compute-1.amazonaws.com";
-$port = "5432";
-$dbname = "dm3thdq3v0u36";
-$user = "equifalumcnmkg";
-$password = "7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786"; 
-$connection_string = "host={$host} port={$port} dbname={$dbname} user={$user} password={$password} ";
-$dbconn = pg_connect($connection_string);
+  $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
+  $db_heroku = "dm3thdq3v0u36";
+  $user_heroku = "equifalumcnmkg";
+  $pw_heroku = "7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786"; 
+  $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
+  $pg_heroku = pg_connect($conn_string);
 if(isset($_POST['submit'])&&!empty($_POST['submit'])){
     
     $hashpassword = md5($_POST['pwd']);
     $sql ="select *from public.user where email = '".pg_escape_string($_POST['email'])."' and password ='".$hashpassword."'";
-    $data = pg_query($dbconn,$sql); 
+    $data = pg_query($pg_heroku,$sql); 
     $login_check = pg_num_rows($data);
     if($login_check > 0){ 
         
