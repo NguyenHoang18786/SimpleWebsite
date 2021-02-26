@@ -15,6 +15,10 @@
   $pw_heroku = "7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786"; 
   $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
   $pg_heroku = pg_connect($conn_string);
+  if (!$pg_heroku)
+			{
+				die('Error: Could not connect: ' . pg_last_error());
+			}
     if(isset($_POST['submit'])&&!empty($_POST['submit'])){    
         $hashpassword = md5($_POST['password']);
         $sql ="select * from accounts where username = '".pg_escape_string($_POST['username'])."' and password ='".$hashpassword."'";
