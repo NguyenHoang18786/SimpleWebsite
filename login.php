@@ -31,16 +31,16 @@
   ?>
   <div class="container">
     <center><h2>Login for ATN storage </h2></center>
-    <form method="post">          
-   <div class="mb-3">
+    <form method="post" class="container-sm">          
+   <div class="mb-1">
       <label for="username" class="form-label">Username</label>
       <input type="username" class="form-control" id="username" placeholder="Please enter username ..." name="username">
    </div>
-   <div class="mb-3">
+   <div class="mb-1">
       <label for="password" class="form-label">Password</label>
       <input type="password" class="form-control" id="password" placeholder="Please enter password ..." name="password">
    </div>
-   <div class="mb-3 form-check">
+   <div class="mb-1 form-check">
       <input type="checkbox" class="form-check-input" id="rememberPw">
       <label class="form-check-label" for="rememberPw">Remember password</label>
     </div>
