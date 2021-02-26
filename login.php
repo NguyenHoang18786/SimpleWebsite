@@ -32,21 +32,17 @@
     <div class="container">
    <h2 style="padding: 30px">Login for ATN storage </h2>
     <form method="post"">          
-   <div class="mb-3">
-      <label for="username" class="form-label-lg">Username</label>
-      <input type="username" class="form-control-lg" id="username" placeholder="Please enter username ..." name="username">
-   </div>
-   <div class="mb-3">
-      <label for="password" class="form-label-lg">Password</label>
-      <input type="password" class="form-control-lg" id="password" placeholder="Please enter password ..." name="password">
-   </div>
-   <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="rememberPw">
-      <label class="form-check-label" for="rememberPw">Remember password</label>
-    </div>
-      <button type="submit" name="submit" class="btn btn-outline-primary" value="Submit">Submit</button>
-    </form>
-  </div>
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="username" class="form-control" id="username" placeholder="Enter your username ..." name="username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter your password ..." name="password">
+        </div>    
+          <input type="submit" name="submit" class="btn btn-outline-primary" value="Submit">
+     </form>
+    </div>                                                                                        
   </center>
 </body>
 </html>
