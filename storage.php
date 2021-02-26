@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>PHP Test</title>
+		<title>ATN shop storages</title>
 	</head>
 	<body>
 		<?php 
@@ -19,7 +19,7 @@
 				die('Error: Could not connect: ' . pg_last_error());
 			}
 			# Get data by query
-			$query = 'select * from accounts';
+			$query = "select * from accounts";
 			$result = pg_query($pg_heroku, $query);
 			# Display data column by column
 			$i = 0;
