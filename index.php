@@ -5,23 +5,7 @@
 ?>
 <html lang="en">
   <head>
-     <a href="login.php">Login</a>
     <meta charset=”UTF-8”>
-    <?php 
-      # Heroku credential 
-      $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
-      $db_heroku = "dm3thdq3v0u36";
-      $user_heroku = "equifalumcnmkg";
-      $pw_heroku = "7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786";
-      # Create connection to Heroku Postgres
-      $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
-      $pg_heroku = pg_connect($conn_string);
-      
-      if (!$pg_heroku)
-      {
-        die('Error: Could not connect: ' . pg_last_error());
-      }
-      ?>
     <title>ATN Shop</title>
     <marquee direction="left" class="marquee" onmouseover="this.stop();" onmouseout="this.start();">This site is under maintainance!</marquee>
     <link rel="stylesheet" href="styleAs.css">
@@ -74,52 +58,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li>
             <!-- Login -->
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Login</a>
-            <ul class="dropdown-menu form-wrapper">
-              <li>
-                <form method="POST">
-                  <p class="hint-text">Sign in with your social media account</p>
-                  <div class="form-group social-btn clearfix">
-                    <a href="#" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
-                    <a href="#" class="btn btn-info pull-right"><i class="fa fa-google"></i> Google+</a>
-                  </div>
-<!-- Login Form -->
-                  <div class="or-seperator"><b>or</b></div>
-                  <div class="form-group" role = "form" 
-                    action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); 
-                    ?>" method = "post">
-                    <input type="text" class="form-control" placeholder="Username" name="username">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" name="password">
-                  </div>
-                  <input type="submit" class="btn btn-primary btn-block" name="Login">
-                  <div class="form-footer">
-                    <a href="#">Forgot Your password?</a>
-                  </div>
-                </form>                
-            <div class = "container form-signin">
-
-                <?php
-                    $msg = '';
-                    $query = 'select * from accounts';
-                    $result = pg_query($pg_heroku, $query);
-                    if ($_POST['username'] == 'admin' && 
-                    $_POST['password'] == 'admin') {
-                    $_SESSION['valid'] = true;
-                    $_SESSION['username'] = 'admin';
-                    $_SESSION['role']=$arr['role'];
-
-                    if ($_SESSION['role']=='admin'){header('Location:admin.php');} 
-                    elseif ($_SESSION['role']==2) {header('Location:staff.php');} 
-                    }
-                    else {
-                    $msg = 'Wrong username or password';
-                    }
-                ?>
-          </div> <!-- /container -->                
-              </li>
-            </ul>
+            <a href="login.php">Login</a>            
           </li>
           <li>
             <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1">Sign up</a>
