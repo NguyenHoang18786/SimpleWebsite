@@ -29,9 +29,10 @@
         }
     }
   ?>
-  <div class="container">
-    <center><h2>Login for ATN storage </h2></center>
-    <form method="post" class="container-sm">          
+  <center>
+    <div class="container">
+   <h2>Login for ATN storage </h2>
+    <form method="post" class="container">          
    <div class="mb-3">
       <label for="username" class="form-label-lg">Username</label>
       <input type="username" class="form-control-lg" id="username" placeholder="Please enter username ..." name="username">
@@ -47,5 +48,6 @@
       <button type="submit" name="submit" class="btn btn-outline-primary" value="Submit">Submit</button>
     </form>
   </div>
+  </center>
 </body>
 </html>
