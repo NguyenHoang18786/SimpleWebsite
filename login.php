@@ -21,7 +21,8 @@
         $data = pg_query($dbconn,$sql); 
         $login_check = pg_num_rows($data);
         if($login_check > 0){     
-            echo "Login Successfully";    
+            header("Location: storage.php");
+            exit;    
         }else{        
             echo "Invalid Details";
         }
