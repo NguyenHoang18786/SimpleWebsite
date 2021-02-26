@@ -57,79 +57,11 @@
         </form>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <!-- Login -->
-            <a href="login.php">Login</a>            
+  <!-- Login -->
+            <a href="login.php" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1">Login</a>            
           </li>
           <li>
-            <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1">Sign up</a>
-            <ul class="dropdown-menu form-wrapper">
-              <li>
-                <form name="register" id="register" method="post">
-                  <p class="hint-text">Fill in this form to create your account!</p>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username" name="uname" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" name="pass" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Confirm Password" name="rpass" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email" name="email" required="required">
-                  </div>
-                  <div class="form-group">
-                    <select name=role id=role form=register class="custom-select custom-select-lg mb-3">
-                      <option selected>Select the role</option>
-                      <option id=admin name=admin value=admin>Admin</option>
-                      <option id=staff name=staff value=staff>Vendor</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <select name="gender" class="custom-select custom-select-lg mb-3">
-                      <option selected>Gender</option>
-                      <option id=male name=male value="male">Male</option>
-                      <option id=female name=female value="female">Female</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
-                  </div>
-                  <input type="submit" class="btn btn-primary btn-block" value="Sign up" name="register">
-                </form>
-                  <?php
-                    function user_register()
-                    {
-                  $file = parse_ini_file("conn.ini");
-                  $host = trim($file['dbhost']);
-                  $user = trim($file['dbuser']);
-                  $pass = trim($file['dbpass']);
-                  $name = trim($file['dbname']);
-                  $port = trim($file['dbport']);
-                  
-                        //declaring the variables from form values
-                        $user_name = $_POST['uname'];
-                        $password  = $_POST['pass'];
-                        $gender    = $_POST['gender'];
-                        $role      = $_POST['role'];
-                        $email     = $_POST['email'];
-                        // Check connection
-                        if ($conn->connect_error) 
-                        {
-                        die("Connection failed: " . $conn->connect_error);
-                        }
-                        else
-                        {
-                        require("dbaccess.php");
-                        $access = new access($host, $user, $pass, $name, $port);
-                        $access->connect();
-                  $registerUser = $access->registerUser($user_name,$password,$gender,$role,$email);
-                        }
-                    }
-                  
-                  ?>
-              </li>
-            </ul>
+            <a href="register.php">Register</a>           
           </li>
         </ul>
       </div>
