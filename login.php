@@ -21,8 +21,8 @@ session_start();
 if(isset($_POST['submit'])&&!empty($_POST['submit'])){
     
     $hashpassword = md5($_POST['password']);
-    $query ="select * from accounts where password = '".pg_escape_string($_POST['password'])."' and password ='".$hashpassword."'";
-    $result = pg_query($dbconn,$query); 
+    $query ="select * from accounts where username = '".pg_escape_string($_POST['username'])."' and password ='".$hashpassword."'";
+    $result = pg_query($pg_heroku,$query); 
     $login_check = pg_num_rows($result);
     if($login_check > 0){        
         echo "Login Successfully";    
