@@ -42,7 +42,8 @@
    <body>
        <div class="container px-4">
         <div class="row gx-5">
-          <div class="col-sm">
+          <div class="col">
+            <div class="p-3 border bg-light">
               <center>
                    <h3>Add New Product</h3>
               </center>
@@ -99,7 +100,9 @@
                            ?>
                   </form>
           </div>    
-          <div class="col-sm">
+         </div>
+          <div class="col">
+           <div class="p-3 border bg-light">
              <center>
                     <h3>Update Product Informations</h3>
              </center>
@@ -155,8 +158,10 @@
                                }
                            ?>
                   </form>
+             </div>
             </div>
-          <div class="col-sm">
+          <div class="col">
+           <div class="p-3 border bg-light">
               <center>
                      <h3>Delete Product</h3>
               </center>
@@ -213,8 +218,23 @@
                            ?>
                   </form>
             </div>
+          </div>
         </div>
-      </div>   
+      </div>
+      
+      <div class="container px-4">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3 border bg-light">Custom column padding</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Custom column padding</div>
+          </div>
+            <div class="col">
+            <div class="p-3 border bg-light">Custom column padding</div>
+          </div>
+        </div>
+      </div>
    </body>
 <footer class="bg-light text-center text-lg-start">
   <!-- Copyright -->
