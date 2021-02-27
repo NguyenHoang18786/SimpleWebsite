@@ -34,12 +34,12 @@ session_start();
 		<form method="post" class="navbar-form form-inline>
 		<div class="input-group search-box" style="margin-left: 445px">
 			<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
-		</div>
 		<ul class="nav navbar-nav">
            	 <li>
 		   <input type="submit" name="submit" class="btn btn-success" value="Submit">
          	 </li>
            	</ul>
+		</div>
 	      </form>
 	    <ul class="nav navbar-nav navbar-right">
            <li>
