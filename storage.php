@@ -27,7 +27,7 @@
 	    </nav>
  </head>
  <body>
-		<?php 
+	<?php 
 	echo '<p>TEST HEROKU POSTGRESQL DATABASE </p>'; 
 	# Heroku credential 
 		$host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
@@ -42,11 +42,11 @@
 			die('Error: Could not connect: ' . pg_last_error());
 		}
 	 
-		$query1 = "select count(product_id) as Quantity, product_name from atnshop_storage WHERE shop_id = 1 group by product_name";
+		$query1 = "select count(product_id) as 'Quantity', product_name from atnshop_storage WHERE shop_id = 1 group by product_name";
 		$result = pg_query($pg_heroku, $query1);
 		# Display data column by column
 		$i = 0;
-		echo '<html><body><table><tr>';
+		echo '<html><body><table class = "table"><tr>';
 		while ($i < pg_num_fields($result))
 		{
 			$fieldName = pg_field_name($result, $i);
