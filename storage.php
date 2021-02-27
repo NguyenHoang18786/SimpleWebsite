@@ -259,8 +259,10 @@ session_start();
 		echo '</table></body></html>';
 		?> 
 	 </div></center>
+	 <br>
+	 <br>
  </body>
-	<footer>
+<footer>
 <div class="spinner-grow text-primary" role="status">
   <span class="visually-hidden"></span>
 </div>
@@ -448,9 +450,6 @@ session_start();
   <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-light" role="status">
-  <span class="visually-hidden"></span>
-</div>
-<div class="spinner-grow text-dark" role="status">
   <span class="visually-hidden"></span>
 </div>
 	</footer>
