@@ -7,7 +7,6 @@
    <head>
       <meta charset=”UTF-8”>
       <title>ATN Shop</title>
-      <marquee direction="left" class="marquee" onmouseover="this.stop();" onmouseout="this.start();">This site is under maintainance!</marquee>
       <link rel="stylesheet" href="styleAs.css">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,7 +42,6 @@
    <body>
        <div class="container px-4">
         <div class="row gx-5">
-           
           <div class="col">
            <div class="p-3 border bg-light">
               <center>
@@ -162,6 +160,11 @@
                   </form>
             </div>
           </div>
+        </div>
+      </div>   
+      <hr>
+      <div class="container px-4">
+        <div class="row gx-5">
            <div class="col">
             <div class="p-3 border bg-light">
               <center>
@@ -222,16 +225,16 @@
             </div>
           </div>
         </div>
-      </div>                  
+      </div>
    </body>
    <footer id="site-footer">
     <div class="container-xl">
        <div id="footer2">
-       </div>
-     <center>
+    <center>
       <a class="linkFooter" href="ATNCompany@gmail.com">ATNCompany@gmail.com</a><br>
       <p>Copyright  2020 Domain Name - All Rights Reserved </p>
     </center>
+       </div>
       </div>
   </footer>
 </html>
