@@ -41,6 +41,7 @@
  </head>
  <body>
 	 <center><h1>ATN SHOP STORAGE</h1></center> 
+	 <hr>
 	 <div class="container">
 	  <div class="row">
 	    <div class="col">
@@ -143,6 +144,7 @@
 	    </div>
 	  </div>
 	</div>
+	 <hr>
 	 <div class="container-sm">
 		 <center><h3>Current price list of products of ATN shop</h3></center>
 		<?php 
@@ -193,4 +195,54 @@
 		?> 
 	 </div>
  </body>
+	<footer>
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+	</footer>
 </html>
