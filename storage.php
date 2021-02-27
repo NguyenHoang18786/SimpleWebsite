@@ -205,13 +205,13 @@ session_start();
 	</div>
 	 <br>
 	 <br>
-	 <br><u><a href="AProduct.php" style="color: blue; margin-left:1250px">See all products <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+	 <br><u><a href="AProduct.php" style="color: blue; margin-left:680px">See all products <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
   <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
 </svg></a></u>
 	 <hr>
-	 <div class="container-sm">
-		 <center><h3>Current price list of products of ATN shop</h3></center>
+	 <center><div class="container-sm">
+		 <h3>Current price list of products of ATN shop</h3>
 		<?php 
 		# Heroku credential 	 
 		$host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
@@ -258,7 +258,7 @@ session_start();
 		pg_free_result($result);
 		echo '</table></body></html>';
 		?> 
-	 </div>
+	 </div></center>
  </body>
 	<footer>
 <div class="spinner-grow text-primary" role="status">
