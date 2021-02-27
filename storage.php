@@ -20,7 +20,7 @@ session_start();
     </script>
 	     <nav class="navbar navbar-default navbar-expand-lg navbar-light">
 	      <div class="navbar-header">
-		<a class="navbar-brand" href="index.php">ATN<b>Shop</b></a>  		
+		<a class="navbar-brand" href="index.php"><b>ATN</b>Shop</a>  		
 		<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 		<span class="navbar-toggler-icon"></span>
 		<span class="icon-bar"></span>
