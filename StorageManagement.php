@@ -101,9 +101,16 @@
          </form>
        </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Custom column padding</div>   
-    </div>
+       <div class="col">
+             <div class="p-3 border bg-light">
+               Custom column padding
+             </div>   
+       </div>
+        <div class="col">
+             <div class="p-3 border bg-light">
+               Custom column padding
+             </div>   
+       </div>
   </div>
 </div>
    </body>
