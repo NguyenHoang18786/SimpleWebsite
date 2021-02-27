@@ -74,7 +74,7 @@
                         <label for="shopid">Shop ID</label>
                         <input type="text" class="form-control" id="shopid" name="shopid">
                      </div>
-                     <input type="submit" name="submit" class="btn btn-outline-primary" value="Submit">
+                     <input type="submit" name="submit" class="btn btn-outline-danger" value="Submit">
                         <?php
                            $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
                            $db_heroku = "dm3thdq3v0u36";
@@ -133,7 +133,7 @@
                         <label for="shopidd">Shop ID</label>
                         <input type="text" class="form-control" id="shopidd" name="shopidd">
                      </div>
-                     <input type="submit" name="submitd" class="btn btn-outline-primary" value="Submit">
+                     <input type="submit" name="submitd" class="btn btn-outline-danger" value="Submit">
                         <?php
                            $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
                            $db_heroku = "dm3thdq3v0u36";
@@ -192,7 +192,7 @@
                         <label for="shopidu">Shop ID</label>
                         <input type="text" class="form-control" id="shopidu" name="shopidu">
                      </div>
-                     <input type="submit" name="submitu" class="btn btn-outline-primary" value="Submit">
+                     <input type="submit" name="submitu" class="btn btn-outline-danger" value="Submit">
                         <?php
                            $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
                            $db_heroku = "dm3thdq3v0u36";
