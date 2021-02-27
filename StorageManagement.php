@@ -125,7 +125,7 @@
                 <label for="shopidu">Shop ID</label>
                 <input type="text" class="form-control" id="shopidu" name="shopidu">
               </div>
-               <input type="submitu" name="submitu" class="btn btn-outline-primary" value="Submit">
+               <input type="submit" name="submitu" class="btn btn-outline-primary" value="Submit">
            <?php
               $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
               $db_heroku = "dm3thdq3v0u36";
