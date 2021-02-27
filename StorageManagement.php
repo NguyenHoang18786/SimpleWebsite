@@ -84,7 +84,8 @@
         $pw_heroku = "7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786"; 
         $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
         $pg_heroku = pg_connect($conn_string);
-            $query1 = "select * from atnshop_storage"
+   
+            $query1 = "select * from atnshop_storage";
             $default_rows = pg_num_rows($query1);
             if(isset($_POST['submit'])){
             $query2 = "insert into atnshop_storage VALUES ('$_POST[productid]','$_POST[productname]',
