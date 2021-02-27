@@ -40,7 +40,6 @@ session_start();
 		  border-collapse: collapse;
 		  width: 90%;
 		}
-
 		td, th{
 		  padding: 8px;
 		  text-align: left;
@@ -50,7 +49,7 @@ session_start();
 		</style>
  </head>
  <body>
-	 <div>
+	 <center><div>
 		<?php 
 			# Heroku credential 	 
 			$host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
@@ -98,7 +97,7 @@ session_start();
 			pg_free_result($result);
 			echo '</table></body></html>';}
 		?>
-	</div>
+		 </div></center>
 	 <hr>
 	 <center><h1>ATN SHOP STORAGE</h1></center> 
 	 <hr>
