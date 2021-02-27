@@ -34,27 +34,6 @@ session_start();
         <span class="icon-bar"></span>
         </button>
       </div>
-      <!-- Collection of nav links, forms, and other content for toggling -->
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Products </a>
-            <ul class="dropdown-menu">
-              <li><a href="Laptop.php">Laptop</a></li>
-              <li><a href="phone.php">Phone</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="navbar-form form-inline">
-           <div class="input-group search-box" style="margin-left: 285px">
-            <input type="text" id="search" class="form-control" placeholder="Search here...">
-            <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
-          </div>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-        </ul>
-      </div>
     </nav>
 </head>
 <body>
