@@ -55,9 +55,14 @@ if(isset($_POST['submit'])){
 }
   ?>
   <center>
-    <div class="container-sm">
-   <h1 style="padding: 30px">Login for ATN storage </h1>
-    <form method="post">          
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-5">
+          <div class="container-sm">
+            <h1 style="padding: 30px">Login for ATN storage </h1>
+            <form method="post">          
         <div class="form-group">
           <label for="username">Username</label>
           <input type="username" class="form-control" id="username" placeholder="Enter your username ..." name="username">
@@ -68,7 +73,12 @@ if(isset($_POST['submit'])){
         </div>    
           <input type="submit" name="submit" class="btn btn-outline-primary" value="Submit">
      </form>
-    </div>                                                                                        
+    </div>                         
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>                                                               
   </center>
 </body>
 </html>
