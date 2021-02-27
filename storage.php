@@ -144,6 +144,9 @@
 	    </div>
 	  </div>
 	</div>
+	 <br>
+	 <br>
+	 <br>
 	 <hr>
 	 <div class="container-sm">
 		 <center><h3>Current price list of products of ATN shop</h3></center>
@@ -197,52 +200,148 @@
  </body>
 	<footer>
 <div class="spinner-grow text-primary" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-secondary" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-success" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-danger" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-warning" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-info" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-light" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-dark" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-primary" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-secondary" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-success" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-danger" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-warning" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-info" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-light" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
 </div>
 <div class="spinner-grow text-dark" role="status">
-  <span class="visually-hidden">Loading...</span>
+  <span class="visually-hidden"></span>
+</div>
+		<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden"></span>
+</div>
+		<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden"></span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden"></span>
 </div>
 	</footer>
 </html>
