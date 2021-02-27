@@ -36,7 +36,7 @@ session_start();
 	      </form>
 	    <ul class="nav navbar-nav navbar-right">
            <li>
-            <a href="StorageManagement.php" class="btn btn-outline-success" style="margin-left: 400px"> Storage Management</a>            
+            <a href="StorageManagement.php" class="btn btn-outline-success" style="margin-left: 420px"> Storage Management</a>            
           </li>
            </ul>
 	    </nav>
