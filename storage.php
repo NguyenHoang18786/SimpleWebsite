@@ -31,14 +31,14 @@ session_start();
 		</button>
 	      </div>
 		<form method="post" class="navbar-form form-inline>
-			<div class="input-group search-box" style="margin-left: 495px">
+			<div class="input-group search-box" style="margin-left: 475px">
 		<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
 			</div>
-		<input type="submit" name="submit" class="btn btn-primary" value="Submit">
+		<input type="submit" name="submit" class="btn btn-primary get-started-btn mt-1 mb-1" value="Submit">
 	      </form>
 	    <ul class="nav navbar-nav navbar-right">
            <li>
-            <a href="StorageManagement.php" class="btn btn-outline-success" style="margin-left: 375px"> &nbsp;&nbsp;Storage Management</a>            
+            <a href="StorageManagement.php" class="btn btn-outline-success" style="margin-left: 365px"> &nbsp;&nbsp;Storage Management</a>            
           </li>
            </ul>
 	    </nav>
