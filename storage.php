@@ -34,6 +34,11 @@ session_start();
 			</div>
 		<input type="submit" name="submit" class="btn btn-outline-success value="Submit">
 	      </form>
+	    <ul class="nav navbar-nav navbar-right">
+           <li>
+            <a href="StorageManagement.php" class="btn btn-primary get-started-btn mt-1 mb-1"> &nbsp;&nbsp;Storage Management</a>            
+          </li>
+           </ul>
 	    </nav>
 		<style>
 		table {
