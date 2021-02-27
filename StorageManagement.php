@@ -36,9 +36,8 @@
          </div>
       </nav>
       <center>
-         <br>
          <h1 style="color: cornflowerblue">ATN Storage management</h1>
-         <br><br><br>         
+         <br><br>         
       </center>
    </head>
    <body>
@@ -224,4 +223,12 @@
          </div>
       </div>
    </body>
+   <footer id="site-footer">
+    <div class="container-xl">
+      </div>
+    <center>
+      <a class="linkFooter" href="ATNCompany@gmail.com">ATNCompany@gmail.com</a><br>
+      <p>Copyright  2020 Domain Name - All Rights Reserved </p>
+    </center>
+  </footer>
 </html>
