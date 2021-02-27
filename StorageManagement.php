@@ -33,10 +33,15 @@
             <span class="icon-bar"></span>
             </button>
          </div>
+         <ul class="nav navbar-nav navbar-right">
+           <li>
+            <a href="StorageManagement.php" class="btn btn-outline-success" style="margin-left: 375px"> Storage Management</a>            
+          </li>
+         </ul>
       </nav>
       <center>
          <h1 style="color: cornflowerblue">ATN Storage management</h1>
-         <br><hr>        
+         <hr>        
       </center>
    </head>
    <body>
@@ -224,55 +229,4 @@
       <br>
       <br>
    </body>
-  <footer id="site-footer">
-    <div id="footer2">
-      <img src="map.png" width="100" height="100">
-      <h4 class="footerText">&nbsp; Our Place</h4>
-    </div>
-    <br><br><br>
-    <div class="container-xl">
-      <div class="row">
-        <div class="col-sm">
-          <a href="#" class="">
-            <p class="footerText">About us</p>
-          </a>
-          <a href="#" class="linkFooter2">
-            <p class="footerText">Privacy Policy</p>
-          </a>
-          <a href="#" class="linkFooter2">
-            <p class="footerText">Look up warranty information</p>
-          </a>
-          <a href="#" class="linkFooter2">
-            <p class="footerText">Employment information</p>
-          </a>
-          <a href="#" class="linkFooter2">
-            <p class="footerText">Promotion Information</p>
-          </a>
-        </div>
-        <div class="col-sm">
-          <a href="#" class="linkFooter2">
-            <p class="footerText">Return policy</p>
-          </a>
-          <a href="#" class="linkFooter2">
-            <p class="footerText">Shop system</p>
-          </a>
-          <a href="#" class="linkFooter2">
-            <p class="footerText">Warranty system</p>
-          </a>
-        </div>
-        <div class="col-sm">
-          <h5>Shopping advice (Free) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
-          <h3 style="color: red">0 990 990</h3>
-        </div>
-        <div class="col-sm">
-          <h5>Comments and complaints about the service (8:00 - 22:00)</h5>
-          <h3 style="color: red">0 880 808</h3>
-        </div>
-      </div>
-    </div>
-    <center>
-      <a class="linkFooter" href="ATNCompany@gmail.com">ATNCompany@gmail.com</a><br>
-      <p>Copyright  2020 Domain Name - All Rights Reserved </p>
-    </center>
-  </footer>
 </html>
