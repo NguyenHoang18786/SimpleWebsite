@@ -1,5 +1,5 @@
 <html>
-	<head>
+ <head>
 		<title>ATN shop storages</title>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -25,8 +25,8 @@
 		</button>
 	      </div>
 	    </nav>
-	</head>
-	<body>
+ </head>
+ <body>
 		<?php 
 	echo '<p>TEST HEROKU POSTGRESQL DATABASE </p>'; 
 	# Heroku credential 
@@ -37,12 +37,13 @@
 		$conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
 		$pg_heroku = pg_connect($conn_string);
 
-	if (!$pg_heroku)
-	{
-		die('Error: Could not connect: ' . pg_last_error());
-	}
-		$query = "select * from accounts";
-		$result = pg_query($pg_heroku, $query);
+		if (!$pg_heroku)
+		{
+			die('Error: Could not connect: ' . pg_last_error());
+		}
+	 
+		$query1 = "select count(product_id) as "Quantity", product_name from atnshop_storage WHERE shop_id = 1 group by product_name";
+		$result = pg_query($pg_heroku, $query1);
 		# Display data column by column
 		$i = 0;
 		echo '<html><body><table><tr>';
@@ -75,5 +76,5 @@
 		echo '</table></body></html>';
 
 	?> 
-	</body>
+ </body>
 </html>
