@@ -44,15 +44,9 @@
 	 <div class="container">
 	  <div class="row">
 	    <div class="col">
-	      1 of 2
-	    </div>
-	    <div class="col">
-	      2 of 2
-	    </div>
-	  </div>
-	</div>
-	<?php 
-	# Heroku credential 	 
+	      Quantity of products at Shop 1
+		<?php 
+		# Heroku credential 	 
 		$host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
 		$db_heroku = "dm3thdq3v0u36";
 		$user_heroku = "equifalumcnmkg";
@@ -64,7 +58,7 @@
 		{
 			die('Error: Could not connect: ' . pg_last_error());
 		}
-	 
+
 		$query1 = "select product_name, count(product_id) as Quantity from atnshop_storage WHERE shop_id = 1 group by product_name";
 		$result = pg_query($pg_heroku, $query1);
 		# Display data column by column
@@ -96,6 +90,12 @@
 		}
 		pg_free_result($result);
 		echo '</table></body></html>';
-	?> 
+		?> 
+	    </div>
+	    <div class="col">
+	      Quantity of products at Shop 2
+	    </div>
+	  </div>
+	</div>
  </body>
 </html>
