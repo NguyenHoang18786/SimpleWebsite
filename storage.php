@@ -26,6 +26,29 @@
 	      </div>
 		<form class="navbar-form form-inline method="post">
 			<div class="input-group search-box" style="margin-left: 500px">
+		<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
+			</div>
+		<button class="btn btn-outline-success" type="submit" name="submit">Search</button>
+	      </form>
+	    </nav>
+		<style>
+		table {
+		  border-collapse: collapse;
+		  width: 90%;
+		}
+
+		td, th{
+		  padding: 8px;
+		  text-align: left;
+		  border-bottom: 1px solid #ddd;
+		}
+		tr:hover {background-color:#f5f5f5;}
+		</style>
+ </head>
+ <body>
+	 <center><h1>ATN SHOP STORAGE</h1></center> 
+	 <hr>
+	 <div>
 		<?php 
 			# Heroku credential 	 
 			$host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
@@ -72,29 +95,8 @@
 			}
 			pg_free_result($result);
 			echo '</table></body></html>';}
-		?> 
-		<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
-			</div>
-		<button class="btn btn-outline-success" type="submit" name="submit">Search</button>
-	      </form>
-	    </nav>
-		<style>
-		table {
-		  border-collapse: collapse;
-		  width: 90%;
-		}
-
-		td, th{
-		  padding: 8px;
-		  text-align: left;
-		  border-bottom: 1px solid #ddd;
-		}
-		tr:hover {background-color:#f5f5f5;}
-		</style>
- </head>
- <body>
-	 <center><h1>ATN SHOP STORAGE</h1></center> 
-	 <hr>
+		?>
+		</div>
 	 <div class="container">
 	  <div class="row">
 	    <div class="col">
