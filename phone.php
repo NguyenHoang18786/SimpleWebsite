@@ -329,8 +329,7 @@
     </div>
     <center>
       <a class="linkFooter" href="ATNCompany@gmail.com">ATNCompany@gmail.com</a><br>
-      <p>Copyright  2020 Domain Name - All Rights Reserved </p
-        >
+      <p>Copyright  2020 Domain Name - All Rights Reserved </p>
     </center>
   </footer>
 </html>
