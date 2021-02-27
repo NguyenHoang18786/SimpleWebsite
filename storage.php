@@ -28,12 +28,12 @@
 		<style>
 		table {
 		  border-collapse: collapse;
-		  width: 100%;
+		  width: 50%;
 		}
 
 		th, td {
 		  padding: 8px;
-		  text-align: center;
+		  text-align: left;
 		  border-bottom: 1px solid #ddd;
 		}
 
@@ -42,7 +42,7 @@
  </head>
  <body>
 	<?php 
-	echo '<p>TEST HEROKU POSTGRESQL DATABASE </p>'; 
+	echo '<center><p>ATN shop storage</p></center>'; 
 	# Heroku credential 
 		$host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
 		$db_heroku = "dm3thdq3v0u36";
@@ -86,9 +86,7 @@
 			$i = $i + 1;
 		}
 		pg_free_result($result);
-
 		echo '</table></body></html>';
-
 	?> 
  </body>
 </html>
