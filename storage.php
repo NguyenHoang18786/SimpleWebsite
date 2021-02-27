@@ -28,22 +28,14 @@
 		<style>
 		table {
 		  border-collapse: collapse;
-		  width: 40%;
+		  width: 45%;
 		}
 
-		td {
+		td, th{
 		  padding: 8px;
 		  text-align: left;
 		  border-bottom: 1px solid #ddd;
 		}
-		th {
-		  padding: 11px;
-		  text-align: center;
-		  color: #00BFFF;
-		  font-size:30px;
-		  border-bottom: 1px solid #ddd;
-		}
-
 		tr:hover {background-color:#f5f5f5;}
 		</style>
  </head>
