@@ -34,7 +34,7 @@ session_start();
 		<form method="post" class="navbar-form form-inline>
 		<div class="input-group search-box" style="margin-left: 475px">
 		<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
-		<ul class="nav navbar-nav"><input type="submit" name="submit" class="btn btn-primary get-started-btn mt-1 mb-1" value="Submit"></ul>
+		<input type="submit" name="submit" class="btn btn-primary get-started-btn mt-1 mb-1" value="Submit">
 		</div>
 	      </form>
 	    <ul class="nav navbar-nav navbar-right">
