@@ -25,6 +25,11 @@
 		</button>
 	      </div>
 	    </nav>
+	 <style>
+	table, th, td {
+	    border: 1px solid black;
+	}
+</style>
  </head>
  <body>
 	<?php 
@@ -42,11 +47,11 @@
 			die('Error: Could not connect: ' . pg_last_error());
 		}
 	 
-		$query1 = "select count(product_id) as 'Quantity', product_name from atnshop_storage WHERE shop_id = 1 group by product_name";
+		$query1 = "select product_name, count(product_id) as 'Quantity' from atnshop_storage WHERE shop_id = 1 group by product_name";
 		$result = pg_query($pg_heroku, $query1);
 		# Display data column by column
 		$i = 0;
-		echo '<html><body><table class = "table"><tr>';
+		echo '<html><body><table><tr>';
 		while ($i < pg_num_fields($result))
 		{
 			$fieldName = pg_field_name($result, $i);
