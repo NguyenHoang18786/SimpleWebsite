@@ -39,6 +39,7 @@
 			{
 				die('Error: Could not connect: ' . pg_last_error());
 			}
+			$search = $_POST["search"];
 			if(isset($_POST['submit'])){
 			$query5 = "select * from atnshop_storage where product_id = $search";
 			$result = pg_query($pg_heroku, $query5);
