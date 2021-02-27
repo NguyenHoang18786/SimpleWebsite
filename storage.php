@@ -24,12 +24,10 @@
 		<span class="icon-bar"></span>
 		</button>
 	      </div>
-	<form class="navbar-form form-inline">
-           <div class="input-group search-box" style="margin-left: 285px">
-            <input type="text" id="search" class="form-control" placeholder="Search here...">
-            <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
-          </div>
-        </form>
+		<form class="d-flex">
+		<input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+		<button class="btn btn-outline-success" type="submit">Search</button>
+	      </form>
 	    </nav>
 		<style>
 		table {
