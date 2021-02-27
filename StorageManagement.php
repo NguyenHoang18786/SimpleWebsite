@@ -41,8 +41,8 @@
       </center>
    </head>
    <body>
-      <div class="container-xl">
-         <div class="row gx-5">
+      <div class="container">
+         <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
             <div class="col">
                <div class="p-3 border bg-light">
                   <center>
@@ -225,10 +225,12 @@
    </body>
    <footer id="site-footer">
     <div class="container-xl">
-      </div>
-    <center>
+       <div id="footer2">
+       </div>
+     <center>
       <a class="linkFooter" href="ATNCompany@gmail.com">ATNCompany@gmail.com</a><br>
       <p>Copyright  2020 Domain Name - All Rights Reserved </p>
     </center>
+      </div>
   </footer>
 </html>
