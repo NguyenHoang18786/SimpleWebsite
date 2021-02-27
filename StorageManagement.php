@@ -145,8 +145,10 @@
                   if (isset($_POST['submitu'])) {
                      $query6 = "update atnshop_storage set product_name = '$productnameu', product_type = '$producttypeu', product_price = '$productpriceu', shop_id = '$shopidu' where product_id = '$productidu' ";
                      $result6 = pg_query($pg_heroku,$query6);
-                     $rownew = pg_fetch_assoc($result6);
-                        if ($row != $rownew) {
+                     $query7 = "select * from atnshop_storage where product_id = '$productidu' ";
+                     $result7 = pg_query($pg_heroku,$query7);
+                     $rownew = pg_fetch_assoc($result7);
+                        if ($rownew != $row) {
                             echo "Update successfull!";
                        }else{
                             echo "Update failed!!";
