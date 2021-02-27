@@ -146,7 +146,7 @@
                      $query6 = "update atnshop_storage set product_name = '$productnameu', product_type = '$producttypeu', product_price = '$productpriceu', shop_id = '$shopidu' where product_id = '$productidu' ";
                      $result6 = pg_query($pg_heroku,$query6);
                      $rownew = pg_fetch_assoc($result6);
-                        if ($result6 != $result5) {
+                        if ($row != $rownew) {
                             echo "Update successfull!";
                        }else{
                             echo "Update failed!!";
