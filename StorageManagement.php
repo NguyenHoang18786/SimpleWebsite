@@ -41,13 +41,14 @@
       </center>
    </head>
    <body>
-      <div class="container">
-         <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-            <div class="col">
-               <div class="p-3 border bg-light">
-                  <center>
-                     <h3>Add New Product</h3>
-                  </center>
+       <div class="container px-4">
+        <div class="row gx-5">
+           
+          <div class="col">
+           <div class="p-3 border bg-light">
+              <center>
+                   <h3>Add New Product</h3>
+              </center>
                   <form method="post">
                      <div class="form-group">
                         <label for="productid">Product ID</label>
@@ -100,13 +101,13 @@
                             }
                            ?>
                   </form>
-               </div>
-            </div>
-            <div class="col">
-               <div class="p-3 border bg-light">
-                  <center>
-                     <h3>Update Product Informations</h3>
-                  </center>
+             </div>
+          </div>    
+          <div class="col">
+            <div class="p-3 border bg-light">
+             <center>
+                    <h3>Update Product Informations</h3>
+             </center>
                   <form method="post">
                      <div class="form-group">
                         <label for="productidu">Product ID</label>
@@ -159,13 +160,13 @@
                                }
                            ?>
                   </form>
-               </div>
             </div>
-            <div class="col">
-               <div class="p-3 border bg-light">
-                  <center>
+          </div>
+           <div class="col">
+            <div class="p-3 border bg-light">
+              <center>
                      <h3>Get Product</h3>
-                  </center>
+              </center>
                   <form method="post">
                      <div class="form-group">
                         <label for="productidu">Product ID</label>
@@ -218,10 +219,10 @@
                                }
                            ?>
                   </form>
-               </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
+      </div>                  
    </body>
    <footer id="site-footer">
     <div class="container-xl">
