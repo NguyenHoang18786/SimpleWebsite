@@ -135,22 +135,22 @@
                            $pw_heroku = "7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786"; 
                            $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
                            $pg_heroku = pg_connect($conn_string);
-
-                                        $productidd = $_POST["productidd"];
-                                        $productnamed = $_POST["productnamed"];
-                                        $producttyped = $_POST["producttyped"];
-                                        $productpriced = $_POST["productpriced"];
-                                        $shopidd = $_POST["shopidd"];
-                                  $query8 = "select * from atnshop_storage";
-                                  $result8 = pg_query($pg_heroku,$query8);
-                                  $before_delete = pg_num_rows($result8);
+   
+                                     $query8 = "select * from atnshop_storage";
+                                     $result8 = pg_query($pg_heroku,$query8);
+                                     $before_delete = pg_num_rows($result8);
                                if (isset($_POST['submitd'])) {
+                                     $productidd = $_POST["productidd"];
+                                     $productnamed = $_POST["productnamed"];
+                                     $producttyped = $_POST["producttyped"];
+                                     $productpriced = $_POST["productpriced"];
+                                     $shopidd = $_POST["shopidd"];
                                   $query9 = "delete from atnshop_storage where product_id = '$productidd' ";
                                   $result9 = pg_query($pg_heroku,$query9);
                                   $query10 = "select * from atnshop_storage";
                                   $result10 = pg_query($pg_heroku,$query10);
                                   $after_delete = pg_num_rows($result10);
-                                     if ($before_delete < $after_delete) {
+                                     if ($after_delete < $before_delete) {
                                          echo "Update successfull!";
                                     }else{
                                          echo "Update failed!!";
