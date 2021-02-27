@@ -102,9 +102,61 @@
        </div>
     </div>
        <div class="col">
-             <div class="p-3 border bg-light">
-               Custom column padding
-             </div>   
+        <div class="p-3 border bg-light">
+          <center><h3>Update Product Informations</h3></center>
+            <form method="post">
+              <div class="form-group">
+                <label for="productid">Product ID</label>
+                <input type="text" class="form-control" id="productid" name="productid" aria-describedby="productid">
+              </div>
+              <div class="form-group">
+                <label for="productname">Product Name</label>
+                <input type="text" class="form-control" id="productname" name="productname">
+              </div>
+             <div class="form-group">
+                <label for="producttype">Product Type</label>
+                <input type="text" class="form-control" id="producttype" name="producttype">
+              </div>
+               <div class="form-group">
+                <label for="productprice">Product Price</label>
+                <input type="text" class="form-control" id="productprice" name="productprice">
+              </div>
+               <div class="form-group">
+                <label for="shopid">Shop ID</label>
+                <input type="text" class="form-control" id="shopid" name="shopid">
+              </div>
+               <input type="submit" name="submit" class="btn btn-outline-primary" value="Submit">
+           <?php
+              $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
+              $db_heroku = "dm3thdq3v0u36";
+              $user_heroku = "equifalumcnmkg";
+              $pw_heroku = "7bbc29b6da39382b5f7a0fb0aa5a4bc737cd1174714f757097fbd2a4b0b87786"; 
+              $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
+              $pg_heroku = pg_connect($conn_string);
+
+                     $query1 = "select * from atnshop_storage";
+                     $result1 = pg_query($pg_heroku,$query1);
+                     $before_insert = pg_num_rows($result1);
+                  if(isset($_POST['submit'])){
+                           $productid = $_POST["productid"];
+                           $productname = $_POST["productname"];
+                           $producttype = $_POST["producttype"];
+                           $productprice = $_POST["productprice"];
+                           $shopid = $_POST["shopid"];
+                     $query2 ="insert into atnshop_storage VALUES ('$productid','$productname','$producttype','$productprice','$shopid')";
+                     $result2 = pg_query($pg_heroku,$query2);
+                     $query3 = "select * from atnshop_storage";
+                     $result3 = pg_query($pg_heroku,$query3);
+                      $check_insert = pg_num_rows($result3);
+                    if($check_insert > $before_insert){        
+                       echo "Successfully Add New Product!!";   
+                   }else{        
+                       echo "Something wrong, please input again"; 
+                   }
+               }
+            ?>
+            </form>
+          </div>
        </div>
         <div class="col">
              <div class="p-3 border bg-light">
