@@ -29,7 +29,7 @@
       
     <nav class="navbar navbar-default navbar-expand-lg navbar-light">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.php">ATN<b>Shop</b></a>  		
+        <a class="navbar-brand" style="margin-left: 10px" href="index.php"><b>ATN</b>Shop</a>  		
         <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
         <span class="navbar-toggler-icon"></span>
         <span class="icon-bar"></span>
@@ -48,17 +48,50 @@
     <div class="col">
      <div class="p-3 border bg-light">
         <center><h3>Add new product</h3></center>
-        <ul>
-         <form name="insert" action="insert.php" method="POST" >
-         <li>Book ID:</li><li><input type="text" name="bookid" /></li>
-         <li>Book Name:</li><li><input type="text" name="book_name" /></li>
-         <li>Author:</li><li><input type="text" name="author" /></li>
-         <li>Publisher:</li><li><input type="text" name="publisher" /></li>
-         <li>Date of publication:</li><li><input type="text" name="dop" /></li>
-         <li>Price (USD):</li><li><input type="text" name="price" /></li>
-         <li><input type="submit" /></li>
-         </form>
-         </ul>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
      </div>
     </div>
     <div class="col">
