@@ -23,7 +23,7 @@ session_start();
     </script>
     <nav class="navbar navbar-default navbar-expand-lg navbar-light">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.php">ATN<b>Shop</b></a>  		
+        <a class="navbar-brand" href="index.php"><b>ATN</b>Shop</a>  		
         <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
         <span class="navbar-toggler-icon"></span>
         <span class="icon-bar"></span>
@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
 }
   ?>
   <center>
-    <div class="container">
+    <div class="container-sm">
    <h1 style="padding: 30px">Login for ATN storage </h1>
     <form method="post">          
         <div class="form-group">
