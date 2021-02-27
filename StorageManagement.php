@@ -48,45 +48,35 @@
     <div class="col">
      <div class="p-3 border bg-light">
        <center><h3>Add New Product</h3></center>
-<form>
-  <div class="form-row">
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-       <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-       <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
+         <form>
+           <div class="form-group">
+             <label for="exampleInputEmail1">Email address</label>
+             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           </div>
+           <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+            <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+            <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+           <button type="submit" class="btn btn-primary">Submit</button>
+         </form>
        </div>
     </div>
     <div class="col">
       <div class="p-3 border bg-light">Custom column padding</div>   
     </div>
   </div>
-</div>
-   
-   
-  
-   
-        
+</div>        
    </body>
+</html>
