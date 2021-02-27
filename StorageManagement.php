@@ -39,7 +39,7 @@
       </div>
     </nav>
     <center>
-      <h1 style="color: cornflowerblue">ATN Storage management</h1>        
+      <br><h1 style="color: cornflowerblue">ATN Storage management</h1><br><br><br>         
     </center>
   </head>
 <body>
@@ -48,28 +48,28 @@
     <div class="col">
      <div class="p-3 border bg-light">
        <center><h3>Add New Product</h3></center>
-         <form>
+         <form method="post">
            <div class="form-group">
-             <label for="exampleInputEmail1">Email address</label>
-             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+             <label for="productid">Product ID</label>
+             <input type="text" class="form-control" id="productid" name="productid" aria-describedby="productid">
            </div>
            <div class="form-group">
-             <label for="exampleInputPassword1">Password</label>
-             <input type="password" class="form-control" id="exampleInputPassword1">
+             <label for="productname">Product Name</label>
+             <input type="text" class="form-control" id="productname" name="productname">
            </div>
           <div class="form-group">
-             <label for="exampleInputPassword1">Password</label>
-             <input type="password" class="form-control" id="exampleInputPassword1">
+             <label for="producttype">Product Type</label>
+             <input type="text" class="form-control" id="producttype" name="producttype">
            </div>
             <div class="form-group">
-             <label for="exampleInputPassword1">Password</label>
-             <input type="password" class="form-control" id="exampleInputPassword1">
+             <label for="productprice">Product Price</label>
+             <input type="text" class="form-control" id="productprice" name="productprice">
            </div>
             <div class="form-group">
-             <label for="exampleInputPassword1">Password</label>
-             <input type="password" class="form-control" id="exampleInputPassword1">
+             <label for="shopid">Shop ID</label>
+             <input type="text" class="form-control" id="shopid" name="shopid">
            </div>
-           <button type="submit" class="btn btn-primary">Submit</button>
+            <input type="submit" name="submit" class="btn btn-outline-primary" value="Submit">
          </form>
        </div>
     </div>
