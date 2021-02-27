@@ -39,7 +39,7 @@
 			{
 				die('Error: Could not connect: ' . pg_last_error());
 			}
-			if(isset($_POST['submit']))
+			if(isset($_POST['submit'])){
 			$query5 = "select * from atnshop_storage where product_id = $search";
 			$result = pg_query($pg_heroku, $query5);
 			# Display data column by column
@@ -70,7 +70,7 @@
 				$i = $i + 1;
 			}
 			pg_free_result($result);
-			echo '</table></body></html>';
+			echo '</table></body></html>';}
 		?> 
 		<input class="form-control me-2" type="search" name="search" placeholder="Search..." aria-label="Search">
 			</div>
