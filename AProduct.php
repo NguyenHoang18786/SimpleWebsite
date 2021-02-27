@@ -5,6 +5,7 @@ session_start();
  <head>
 	 <meta name="keywords" content="PHP,PostgreSQL,Insert,Login">
 		<title>ATN shop storages</title>
+	 <link rel="stylesheet" href="styleAs.css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
