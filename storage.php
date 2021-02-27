@@ -28,7 +28,7 @@
 		<style>
 		table {
 		  border-collapse: collapse;
-		  width: 45%;
+		  width: 90%;
 		}
 
 		td, th{
@@ -93,7 +93,7 @@
 		?> 
 	    </div>
 	    <div class="col">
-	      Quantity of products at Shop 2
+		    <center><h3>Quantity of products at Shop 2</h3></center>
 	    </div>
 	  </div>
 	</div>
