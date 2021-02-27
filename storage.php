@@ -31,10 +31,14 @@ session_start();
 		</button>
 	      </div>
 		<form method="post" class="navbar-form form-inline>
-			<div class="input-group search-box" style="margin-left: 475px">
-		<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
-			</div>
-		<input type="submit" name="submit" class="btn btn-primary get-started-btn mt-1 mb-1" value="Submit">
+		<div class="input-group search-box" style="margin-left: 475px">
+			<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
+		</div>
+		 <ul>
+		 	<li>
+			<input type="submit" name="submit" class="btn btn-primary get-started-btn mt-1 mb-1" value="Submit">
+			</li>
+		</ul>
 	      </form>
 	    <ul class="nav navbar-nav navbar-right">
            <li>
