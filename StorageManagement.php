@@ -42,7 +42,7 @@
       </center>
    </head>
    <body>
-      <div class="container px-4">
+      <div class="container-xl">
          <div class="row gx-5">
             <div class="col">
                <div class="p-3 border bg-light">
