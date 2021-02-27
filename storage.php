@@ -25,7 +25,7 @@
 		</button>
 	      </div>
 		<form class="d-flex">
-			<div class="input-group search-box" style="margin-left: 470px; margin-top: 8px">
+			<div class="input-group search-box" style="margin-left: 500px; margin-top: 6px">
 		<input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
 			</div>
 		<button class="btn btn-outline-success" type="submit">Search</button>
