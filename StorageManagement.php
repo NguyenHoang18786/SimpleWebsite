@@ -224,7 +224,12 @@
       <br>
       <br>
    </body>
-<footer id="site-footer">
+  <footer id="site-footer">
+    <div id="footer2">
+      <img src="map.png" width="100" height="100">
+      <h4 class="footerText">&nbsp; Our Place</h4>
+    </div>
+    <br><br><br>
     <div class="container-xl">
       <div class="row">
         <div class="col-sm">
