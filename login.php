@@ -60,7 +60,7 @@ if(isset($_POST['submit'])){
         <div class="col">
         </div>
         <div class="col-5">
-          <div class="container-sm">
+          <div class="p-3 border bg-light">
             <h1 style="padding: 30px">Login for ATN storage </h1>
             <form method="post">          
         <div class="form-group">
@@ -71,7 +71,7 @@ if(isset($_POST['submit'])){
           <label for="password">Password</label>
           <input type="password" class="form-control" id="password" placeholder="Enter your password ..." name="password">
         </div>    
-          <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+          <input type="submit" name="submit" class="btn btn-primary" value="Login">
      </form>
     </div>                         
         </div>
