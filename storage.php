@@ -205,7 +205,7 @@ session_start();
 	</div>
 	 <br>
 	 <br>
-	 <br>
+	 <br><u><a href="AProduct.php" style="color: blue">See all products </a></u>
 	 <hr>
 	 <div class="container-sm">
 		 <center><h3>Current price list of products of ATN shop</h3></center>
