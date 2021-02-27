@@ -42,8 +42,18 @@
  </head>
  <body>
 	<?php 
-	echo '<center><p>ATN shop storage</p></center>'; 
+	echo '<center><h1>ATN SHOP STORAGE</h1></center>'; 
 	# Heroku credential 
+	 <div class="container">
+	  <div class="row">
+	    <div class="col">
+	      1 of 2
+	    </div>
+	    <div class="col">
+	      2 of 2
+	    </div>
+	  </div>
+	</div>
 		$host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
 		$db_heroku = "dm3thdq3v0u36";
 		$user_heroku = "equifalumcnmkg";
