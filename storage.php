@@ -28,12 +28,19 @@
 		<style>
 		table {
 		  border-collapse: collapse;
-		  width: 50%;
+		  width: 40%;
 		}
 
-		th, td {
+		td {
 		  padding: 8px;
 		  text-align: left;
+		  border-bottom: 1px solid #ddd;
+		}
+		th {
+		  padding: 11px;
+		  text-align: center;
+		  color: #00BFFF;
+		  font-size:30px;
 		  border-bottom: 1px solid #ddd;
 		}
 
