@@ -28,11 +28,11 @@ session_start();
 		<span class="icon-bar"></span>
 		</button>
 	      </div>
-		<form class="navbar-form form-inline method="post">
+		<form method="post" class="navbar-form form-inline>
 			<div class="input-group search-box" style="margin-left: 500px">
 		<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
 			</div>
-		<button class="btn btn-outline-success" type="submit" name="submit">Search</button>
+		<input type="submit" name="submit" class="btn btn-outline-success value="Submit">
 	      </form>
 	    </nav>
 		<style>
