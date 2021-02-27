@@ -50,8 +50,6 @@ session_start();
 		</style>
  </head>
  <body>
-	 <center><h1>ATN SHOP STORAGE</h1></center> 
-	 <hr>
 	 <div>
 		<?php 
 			# Heroku credential 	 
@@ -100,7 +98,10 @@ session_start();
 			pg_free_result($result);
 			echo '</table></body></html>';}
 		?>
-		</div>
+	</div>
+	 <hr>
+	 <center><h1>ATN SHOP STORAGE</h1></center> 
+	 <hr>
 	 <div class="container">
 	  <div class="row">
 	    <div class="col">
