@@ -25,7 +25,10 @@
 		</button>
 	      </div>
 	    </nav>
-	 <style>
+	<style>
+	table, th, td {
+	    border: 1px solid black;
+	}
 </style>
  </head>
  <body>
@@ -44,7 +47,7 @@
 			die('Error: Could not connect: ' . pg_last_error());
 		}
 	 
-		$query = "select product_name, count(product_id) as Quantity from atnshop_storage WHERE shop_id = 1 group by product_name";
+		$query = "select product_name as Product Name, count(product_id) as Quantity from atnshop_storage WHERE shop_id = 1 group by product_name";
 		$result = pg_query($pg_heroku, $query);
 		# Display data column by column
 		$i = 0;
