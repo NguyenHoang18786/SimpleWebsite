@@ -60,9 +60,6 @@
   <!-- Login -->
             <a href="login.php" class="btn btn-primary get-started-btn mt-1 mb-1"> &nbsp;&nbsp;Login</a>            
           </li>
-          <li>
-            <a href="register.php">Register</a>           
-          </li>
         </ul>
       </div>
     </nav>
