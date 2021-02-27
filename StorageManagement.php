@@ -36,7 +36,7 @@
       </nav>
       <center>
          <h1 style="color: cornflowerblue">ATN Storage management</h1>
-         <br><br>         
+         <br><hr>        
       </center>
    </head>
    <body>
@@ -221,12 +221,53 @@
            </div>
         </div>
       </div>
+      <br>
+      <br>
    </body>
-<footer class="bg-light text-center text-lg-start">
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    <a class="text-dark" href="ATNCompany@gmail.com">ATNCompany@gmail.com</a><br>
-    <p>Copyright  2020 Domain Name - All Rights Reserved </p>
-  </div>
-</footer>
+<footer id="site-footer">
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-sm">
+          <a href="#" class="">
+            <p class="footerText">About us</p>
+          </a>
+          <a href="#" class="linkFooter2">
+            <p class="footerText">Privacy Policy</p>
+          </a>
+          <a href="#" class="linkFooter2">
+            <p class="footerText">Look up warranty information</p>
+          </a>
+          <a href="#" class="linkFooter2">
+            <p class="footerText">Employment information</p>
+          </a>
+          <a href="#" class="linkFooter2">
+            <p class="footerText">Promotion Information</p>
+          </a>
+        </div>
+        <div class="col-sm">
+          <a href="#" class="linkFooter2">
+            <p class="footerText">Return policy</p>
+          </a>
+          <a href="#" class="linkFooter2">
+            <p class="footerText">Shop system</p>
+          </a>
+          <a href="#" class="linkFooter2">
+            <p class="footerText">Warranty system</p>
+          </a>
+        </div>
+        <div class="col-sm">
+          <h5>Shopping advice (Free) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+          <h3 style="color: red">0 990 990</h3>
+        </div>
+        <div class="col-sm">
+          <h5>Comments and complaints about the service (8:00 - 22:00)</h5>
+          <h3 style="color: red">0 880 808</h3>
+        </div>
+      </div>
+    </div>
+    <center>
+      <a class="linkFooter" href="ATNCompany@gmail.com">ATNCompany@gmail.com</a><br>
+      <p>Copyright  2020 Domain Name - All Rights Reserved </p>
+    </center>
+  </footer>
 </html>
