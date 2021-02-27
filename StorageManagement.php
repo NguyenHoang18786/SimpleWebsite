@@ -106,26 +106,26 @@
           <center><h3>Update Product Informations</h3></center>
             <form method="post">
               <div class="form-group">
-                <label for="productid">Product ID</label>
-                <input type="text" class="form-control" id="productid" name="productid" aria-describedby="productid">
+                <label for="productidu">Product ID</label>
+                <input type="text" class="form-control" id="productidu" name="productidu" aria-describedby="productid">
               </div>
               <div class="form-group">
-                <label for="productname">Product Name</label>
-                <input type="text" class="form-control" id="productname" name="productname">
+                <label for="productnameu">Product Name</label>
+                <input type="text" class="form-control" id="productnameu" name="productnameu">
               </div>
              <div class="form-group">
-                <label for="producttype">Product Type</label>
-                <input type="text" class="form-control" id="producttype" name="producttype">
+                <label for="producttypeu">Product Type</label>
+                <input type="text" class="form-control" id="producttypeu" name="producttypeu">
               </div>
                <div class="form-group">
-                <label for="productprice">Product Price</label>
-                <input type="text" class="form-control" id="productprice" name="productprice">
+                <label for="productpriceu">Product Price</label>
+                <input type="text" class="form-control" id="productpriceu" name="productpriceu">
               </div>
                <div class="form-group">
-                <label for="shopid">Shop ID</label>
-                <input type="text" class="form-control" id="shopid" name="shopid">
+                <label for="shopidu">Shop ID</label>
+                <input type="text" class="form-control" id="shopidu" name="shopidu">
               </div>
-               <input type="submit" name="submit" class="btn btn-outline-primary" value="Submit">
+               <input type="submitu" name="submitu" class="btn btn-outline-primary" value="Submit">
            <?php
               $host_heroku = "ec2-54-158-1-189.compute-1.amazonaws.com";
               $db_heroku = "dm3thdq3v0u36";
@@ -134,26 +134,23 @@
               $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
               $pg_heroku = pg_connect($conn_string);
 
-                     $query1 = "select * from atnshop_storage";
-                     $result1 = pg_query($pg_heroku,$query1);
-                     $before_insert = pg_num_rows($result1);
-                  if(isset($_POST['submit'])){
-                           $productid = $_POST["productid"];
-                           $productname = $_POST["productname"];
-                           $producttype = $_POST["producttype"];
-                           $productprice = $_POST["productprice"];
-                           $shopid = $_POST["shopid"];
-                     $query2 ="insert into atnshop_storage VALUES ('$productid','$productname','$producttype','$productprice','$shopid')";
-                     $result2 = pg_query($pg_heroku,$query2);
-                     $query3 = "select * from atnshop_storage";
-                     $result3 = pg_query($pg_heroku,$query3);
-                      $check_insert = pg_num_rows($result3);
-                    if($check_insert > $before_insert){        
-                       echo "Successfully Add New Product!!";   
-                   }else{        
-                       echo "Something wrong, please input again"; 
-                   }
-               }
+                           $productidu = $_POST["productidu"];
+                           $productnameu = $_POST["productnameu"];
+                           $producttypeu = $_POST["producttypeu"];
+                           $productpriceu = $_POST["productpriceu"];
+                           $shopidu = $_POST["shopidu"];
+                     $query5 = "select * from atnshop_storage where product_id = '$productidu' ";
+                     $result5 = pg_query($pg_heroku,$query5);
+                     $row = pg_fetch_assoc($result5);
+                  if (isset($_POST['submitu'])) {
+                     $query6 = "update atnshop_storage SET product_id = '$productidu', product_name = '$productnameu', product_type = '$producttypeu', product_price = '$productpriceu', shop_id = '$shopidu' ";
+                     $result6 = pg_query($pg_heroku,$query5);
+                        if (!$result6) {
+                            echo "Update failed!!";
+                       }else{
+                            echo "Update successfull;";
+                            }
+                  }
             ?>
             </form>
           </div>
