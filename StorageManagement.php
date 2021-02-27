@@ -35,7 +35,7 @@
          </div>
          <ul class="nav navbar-nav navbar-right">
            <li>
-            <a href="storage.php" class="btn btn-outline-success" style="margin-left: 375px">Storage</a>            
+            <a href="storage.php" class="btn btn-outline-success" style="margin-left: 700px">Storage</a>            
           </li>
          </ul>
       </nav>
