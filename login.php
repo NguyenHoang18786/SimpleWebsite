@@ -48,10 +48,7 @@ if(isset($_POST['submit'])){
     if($login_check == 0){        
         echo "Invalid Details";   
     }else{        
-        if($role == 'admin'){
-          header('location: staff.php');}
-        else{
-          header('location: storage.php');}
+        header('location: storage.php'); 
     }
 }
   ?>
