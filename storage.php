@@ -30,15 +30,10 @@ session_start();
 		<span class="icon-bar"></span>
 		</button>
 	      </div>
-		<div id="navbarCollapse" class="collapse navbar-collapse">
 		<form method="post" class="navbar-form form-inline>
 		<div class="input-group search-box" style="margin-left: 445px">
 			<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
-		<ul class="nav navbar-nav">
-           	 <li>
-		   <input type="submit" name="submit" class="btn btn-success" value="Submit">
-         	 </li>
-           	</ul>
+		   <input type="submit" name="submit" class="btn btn-outline-success" value="Submit">
 		</div>
 	      </form>
 	    <ul class="nav navbar-nav navbar-right">
@@ -46,7 +41,6 @@ session_start();
             <a href="StorageManagement.php" class="btn btn-outline-success" style="margin-left: 335px"> &nbsp;&nbsp;Storage Management</a>            
           </li>
            </ul>
-	</div>
 	    </nav>
 		<style>
 		table {
