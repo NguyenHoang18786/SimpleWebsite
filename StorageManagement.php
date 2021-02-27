@@ -87,9 +87,10 @@
                         $productprice = $_POST["productprice"];
                         $shopid = $_POST["shopid"];
                   $query2 ="insert into atnshop_storage VALUES ('$productid','$productname','$producttype','$productprice','$shopid')";
+                  $result2 = pg_query($pg_heroku,$query2);
                   $query3 = "select * from atnshop_storage";
-                  $result2 = pg_query($pg_heroku,$query3);
-                   $check_insert = pg_num_rows($result2);
+                  $result3 = pg_query($pg_heroku,$query3);
+                   $check_insert = pg_num_rows($result3);
                  if($check_insert > $before_insert){        
                     echo "Successfully Add New Product!!";   
                 }else{        
