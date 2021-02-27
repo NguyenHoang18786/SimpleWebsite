@@ -32,12 +32,12 @@ session_start();
 	      </div>
 		<div id="navbarCollapse" class="collapse navbar-collapse">
 		<form method="post" class="navbar-form form-inline>
-		<div class="input-group search-box" style="margin-left: 475px">
+		<div class="input-group search-box" style="margin-left: 465px">
 			<input class="form-control me-2" type="search" name="search" id="search" placeholder="Search..." aria-label="Search">
 		</div>
 		<ul class="nav navbar-nav">
            	 <li>
-		   <input type="submit" name="submit" class="btn btn-primary get-started-btn mt-1 mb-1" value="Submit">
+		   <input type="submit" name="submit" class="btn btn-primary get-started-btn mt-3 mb-3" value="Submit">
          	 </li>
            	</ul>
 	      </form>
