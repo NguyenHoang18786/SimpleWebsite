@@ -37,34 +37,33 @@
         <span class="icon-bar"></span>
         </button>
       </div>
-      <!-- Collection of nav links, forms, and other content for toggling -->
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Products </a>
-            <ul class="dropdown-menu">
-              <li><a href="Laptop.php">Laptop</a></li>
-              <li><a href="phone.php">Phone</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="navbar-form form-inline">
-           <div class="input-group search-box" style="margin-left: 285px">
-            <input type="text" id="search" class="form-control" placeholder="Search here...">
-            <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
-          </div>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-  <!-- Login -->
-            <a href="login.php" class="btn btn-primary get-started-btn mt-1 mb-1"> &nbsp;&nbsp;Login</a>            
-          </li>
-        </ul>
-      </div>
     </nav>
     <center>
-      <img src="advertisement.jfif" width="1490" height="200">
-      <h1 style="color: cornflowerblue">Welcome to ATN shop</h1>        
+      <h1 style="color: cornflowerblue">ATN Storage management</h1>        
     </center>
   </head>
+<body>
+   <div class="container px-4">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light">
+        <center><h3>Add new product</h3></center>
+        <ul>
+         <form name="insert" action="insert.php" method="POST" >
+         <li>Book ID:</li><li><input type="text" name="bookid" /></li>
+         <li>Book Name:</li><li><input type="text" name="book_name" /></li>
+         <li>Author:</li><li><input type="text" name="author" /></li>
+         <li>Publisher:</li><li><input type="text" name="publisher" /></li>
+         <li>Date of publication:</li><li><input type="text" name="dop" /></li>
+         <li>Price (USD):</li><li><input type="text" name="price" /></li>
+         <li><input type="submit" /></li>
+         </form>
+         </ul>
+     </div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Custom column padding</div>
+    </div>
+  </div>
+</div>
+   </body>
