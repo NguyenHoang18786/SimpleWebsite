@@ -37,7 +37,7 @@ session_start();
 		</div>
 		<ul class="nav navbar-nav">
            	 <li>
-		   <input type="submit" name="submit" class="btn btn-primary get-started-btn mt-3 mb-3" value="Submit">
+		   <input type="submit" name="submit" class="btn btn-primary" value="Submit">
          	 </li>
            	</ul>
 	      </form>
