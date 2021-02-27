@@ -61,7 +61,7 @@ if(isset($_POST['submit'])){
         </div>
         <div class="col-5">
           <div class="p-3 border bg-light">
-            <h1 style="padding: 30px">Login for ATN storage </h1>
+            <h1 style="padding: 10px">Login for ATN storage </h1>
             <form method="post">          
         <div class="form-group">
           <label for="username">Username</label>
