@@ -47,7 +47,7 @@
   <div class="row gx-5">
     <div class="col">
      <div class="p-3 border bg-light">
-        <center><h3>Add new product</h3></center>
+       <center><h3>Add new product</h3></center>
 <form>
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -94,4 +94,16 @@
   </div>
   <button type="submit" class="btn btn-primary">Sign in</button>
 </form>
+       </div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Custom column padding</div>   
+    </div>
+  </div>
+</div>
+   
+   
+  
+   
+        
    </body>
