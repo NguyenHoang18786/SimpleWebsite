@@ -45,7 +45,7 @@ session_start();
 		  text-align: left;
 		  border-bottom: 1px solid #ddd;
 		}
-		tr:hover {background-color:#f5f5f5;}
+		tr:hover {background-color:#FAFAD2;}
 		</style>
  </head>
  <body>
