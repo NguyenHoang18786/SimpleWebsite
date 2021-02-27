@@ -1,8 +1,9 @@
 <?php
 session_start();
 ?>
-<html>
+<html lang="en">
  <head>
+	 <meta name="keywords" content="PHP,PostgreSQL,Insert,Login">
 		<title>ATN shop storages</title>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
